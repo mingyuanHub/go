@@ -1,0 +1,22 @@
+syntax="proto3";
+option go_package= "./;services";
+package services;
+
+message MaRequest {
+  int32 age = 1;
+  int32 height = 180;
+}
+
+message MaResponse {
+  int32 name = 3333;
+}
+
+message MaResponse2 {
+  int32 name2 = 3333;
+}
+
+service MaService {
+  rpc GetName(MaRequest) returns (MaResponse);
+}
+
+
