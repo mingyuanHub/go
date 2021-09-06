@@ -1,0 +1,122 @@
+{
+    "Id": "95e08eea-09df-6c43-6564-d1b0734e36ef",
+    "Imp":
+    [
+        {
+            "Id": "66F784C8-7F12-4CB7-AB7D-0B1B63DB6FF0",
+            "Banner":
+            {
+                "Format": null,
+                "W": 320,
+                "H": 50,
+                "Mimes":
+                [
+                    "application/x-shockwave-flash",
+                    "image/jpg",
+                    "image/gif"
+                ],
+                "TopFrame": 1,
+                "Id": "E5293ED7-9F7B-44F5-9B97-81C86D4CBB81",
+                "Exp": null
+            },
+            "Video": null,
+            "NativeAd": null,
+            "DisplayManager": "",
+            "DisplayManagerVer": "",
+            "Instl": 0,
+            "TagId": "",
+            "BidFloor": 0,
+            "BidFloorCur": "USD",
+            "ClickBrowser": 0,
+            "Secure": 0,
+            "Exp": 10800,
+            "Ext": null
+        }
+    ],
+    "App":
+    {
+        "Id": "",
+        "Name": "",
+        "Bundle": "com.tradplus.Demov6.7.0",
+        "Domain": "",
+        "StoreUrl": "",
+        "SectionCat": null,
+        "PageCat": null,
+        "Ver": "6.7.0",
+        "PrivacyPolicy": 0,
+        "Keywords": "",
+        "Ext":
+        {
+            "Orientation": 1
+        }
+    },
+    "Device":
+    {
+        "Geo": null,
+        "Lmt": 0,
+        "DeviceType": 5,
+        "Make": "Apple",
+        "Model": "iPhone",
+        "Os": 2,
+        "Osv": "11.4.1",
+        "Hwv": "iPhone",
+        "H": 667,
+        "W": 375,
+        "Ppi": 5,
+        "PxRatio": 3.5,
+        "Js": 1,
+        "GeoFetch": 0,
+        "FlashVer": "",
+        "Language": "zh-Hans-CN",
+        "Carrier": "",
+        "ConnectionType": 2,
+        "Ifa": "",
+        "Mcc": "460",
+        "Mnc": "11",
+        "Idfa": "8DBAC5A5-47DE-4A86-91EF-3C43079FEDC0",
+        "Idfv": "443B1184-C087-4DE9-B29A-67A9456E1E4F",
+        "Gaid": ""
+    },
+    "User":
+    {
+        "Id": "C5DE081E-F28F-4577-9977-B1A64E52352F",
+        "Yob": 0,
+        "Gender": "",
+        "Keywords": ""
+    },
+    "Tmax": 10000,
+    "Test": 1,
+    "Cur": "",
+    "Source": null,
+    "Regs":
+    {
+        "Coppa": 0,
+        "Ccpa": 0,
+        "Ext":
+        {
+            "Gdpr": 0
+        }
+    },
+    "TP":
+    {
+        "AppId": "1F3F27CCE40114A290C75A8A022ECA82",
+        "UnitId": "79D2FF861FD9F33791E1612708C13DCB"
+    },
+    "AdSourcePlacements":
+    [
+        {
+            "networkid": 18,
+            "id": 23852,
+            "networkver": "6.6.6",
+            "networkname": "Mintegral",
+            "buyeruid": "xUc7NnzjfTNwiafSGoTTxVcaWVcaN3DwiUtSiAQSfjjTx3z76jRFiUleNnQcWnfoxnvwfal9foT9xaRBWnJjGnlMNnS7fajAigeIHUzUDnftHrNwfa32fZT2fFfQWkjeiniwHnx0DnhFfAftGkjb6deIL5SEYFPQGoMB6aQInVQ6f09FWUHIinRTi09MiavMiaS9iURMGo9MiavMiaSInkK1LkesDZI2WUvlp7QNL7K/HnslN2S5R7QNL7K/HZSyVBvefcIMR7euLFVlnkcURjKnRcluRjcMh7eQ5F50ZFQTWADMfZ9eWUj2RotWZcxfnoMlY7Q8HZSdHkf8YB3lnkK0LkeQWAj2xnjTGdeIk22IinDeiAlefahbfnV2igMBWUcIin39GZ9BfUVFiU5IGal/iUj9fA5IkAjFfAhbiUR9++MPfbMe6aDAGnlAWURMiAjBf+MAGaj9fZ92fANBin3="
+        },
+        {
+            "networkid": 33,
+            "id": 23853,
+            "networkver": "6.6.6",
+            "networkname": "Mytarget",
+            "buyeruid": "xUc7NnzjfTNwiafSGoTTxVcaWVcaN3DwiUtSiAQSfjjTx3z76jRFiUleNnQcWnfoxnvwfal9foT9xaRBWnJjGnlMNnS7fajAigeIHUzUDnftHrNwfa32fZT2fFfQWkjeiniwHnx0DnhFfAftGkjb6deIL5SEYFPQGoMB6aQInVQ6f09FWUHIinRTi09MiavMiaS9iURMGo9MiavMiaSInkK1LkesDZI2WUvlp7QNL7K/HnslN2S5R7QNL7K/HZSyVBvefcIMR7euLFVlnkcURjKnRcluRjcMh7eQ5F50ZFQTWADMfZ9eWUj2RotWZcxfnoMlY7Q8HZSdHkf8YB3lnkK0LkeQWAj2xnjTGdeIk22IinDeiAlefahbfnV2igMBWUcIin39GZ9BfUVFiU5IGal/iUj9fA5IkAjFfAhbiUR9++MPfbMe6aDAGnlAWURMiAjBf+MAGaj9fZ92fANBin3="
+        }
+    ]
+}
