@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd6c586-23db-481e-83b4-b917a193333c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/bench/bidding_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytes/1/1_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bytes/1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/copy/1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/map/1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/url/1/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encry/1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/encry/1/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/bench/engine_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/bench/engine_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +29,9 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1mutfYFJa7TYpw6vULKPR3KIGYV" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
