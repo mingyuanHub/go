@@ -12,25 +12,30 @@ type a struct {
 
 type name struct {
 	a
-	first string
-	second string
-	full string
+	First string `json:"-"`
+	Second string
+	Full string
 }
 
-var nameMy = &name{}
+
 
 func main() {
 
-	body := "{\"ha\":\"lo\"}"
+	var nameMy name
+
+	body := "{\"First\":\"1\"}"
 
 
-	json.Unmarshal([]byte(body), &nameMy)
+	if err := json.Unmarshal([]byte(body), &nameMy); err != nil {
+		fmt.Println(err.Error())
+	}
 
-	//nameMy = &name{
+
+
+	//nameMy = name{
 	//	first: "222",
 	//	second: "333",
 	//	full: nameMy.first + nameMy.second,
-	//	ha: 222
 	//}
 
 	pr(nameMy)
