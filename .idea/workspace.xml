@@ -2,22 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd6c586-23db-481e-83b4-b917a193333c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/build/tiaojian1/a.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tiaojian1/b.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tiaojian1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/log/log/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/log/logrus/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/panic/test2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratelimit/test1/circleQueue.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratelimit/test1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratelimit/test1/rule.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ratelimit/test1/singlerule.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/go-buff-pool.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string/3/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/test4/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/copy/1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/copy/1/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/http/adx/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/http/adx/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/struct/test3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/struct/test3/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +45,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tradplus_event_server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />

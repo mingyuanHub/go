@@ -30,8 +30,6 @@ func main() {
 		fmt.Println(err.Error())
 	}
 
-
-
 	//nameMy = name{
 	//	first: "222",
 	//	second: "333",
