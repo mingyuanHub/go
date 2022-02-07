@@ -2,17 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd6c586-23db-481e-83b4-b917a193333c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/copy/2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/http/bench/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/jsoniter/jsoniter.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/json/jsoniter/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reflect/test1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reflect/test5/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/racedetector/1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/racedetector/2/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ruiqi/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string/4/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/struct/clone1/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rand/rand1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/rand/rand1/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/struct/test5/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/struct/test5/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,11 +62,11 @@
       <recent name="D:\GoPath\src\test1\grpc\test1-client" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GoPath\src\test1\racedetector\1" />
       <recent name="D:\GoPath\src\test1\reflect" />
       <recent name="D:\GoPath\src\test1\ratelimit\test1" />
       <recent name="D:\GoPath\src\test1\encry\aes-ecb-pkcs5-2" />
       <recent name="D:\GoPath\src\test1\encry\aes-ecb-pkcs5" />
-      <recent name="D:\GoPath\src\test1\chan" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build mingyuan/0306">
