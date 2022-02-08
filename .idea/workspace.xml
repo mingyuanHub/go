@@ -2,11 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd6c586-23db-481e-83b4-b917a193333c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/racedetector/1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/racedetector/2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ruiqi/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/string/4/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/struct/clone1/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,7 +18,7 @@
   </component>
   <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Go" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../go-buff-pool" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -62,11 +57,11 @@
       <recent name="D:\GoPath\src\test1\grpc\test1-client" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GoPath\src\test1\racedetector\1" />
-      <recent name="D:\GoPath\src\test1\reflect" />
-      <recent name="D:\GoPath\src\test1\ratelimit\test1" />
-      <recent name="D:\GoPath\src\test1\encry\aes-ecb-pkcs5-2" />
-      <recent name="D:\GoPath\src\test1\encry\aes-ecb-pkcs5" />
+      <recent name="D:\GoPath\src\go-buff-pool\worker\work2" />
+      <recent name="D:\GoPath\src\go-buff-pool\worker\work1" />
+      <recent name="D:\GoPath\src\go-buff-pool\mysql" />
+      <recent name="D:\GoPath\src\go-buff-pool\interview" />
+      <recent name="D:\GoPath\src\go-buff-pool\worker" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build mingyuan/0306">
@@ -145,16 +140,5 @@
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/test.go</url>
-          <line>14</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

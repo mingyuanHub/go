@@ -39,7 +39,7 @@ func test1() {
 	r.AddRule(time.Second*10, 5)                               //每10秒只允许访问5次
 	r.AddRule(time.Minute*30, 50)                              //每30分钟只允许访问50次
 	r.AddRule(time.Hour*24, 500)                               //每天只允许访问500次
-	err := r.LoadingAndAutoSaveToDisc("test1", time.Second*10) //设置10秒备份一次(不填写则默认60秒备份一次)，备份到程序当前文件夹下，文件名为test1.ratelimit
+	err := r.LoadingAndAutoSaveToDisc("go-buff-pool", time.Second*10) //设置10秒备份一次(不填写则默认60秒备份一次)，备份到程序当前文件夹下，文件名为test1.ratelimit
 	if err == nil {
 		log.Println("加载历史访问记录成功")
 	} else {

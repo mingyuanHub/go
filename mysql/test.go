@@ -4,7 +4,6 @@ import (
 	"fmt"
 	"github.com/beego/beego/v2/client/orm"
 	_ "github.com/go-sql-driver/mysql"
-	"hello/hello"
 )
 
 type User struct {
@@ -22,10 +21,6 @@ func init() {
 
 func main() {
 
-	hello.LogTest()
-
-	return;
-
 	orm.Debug = true
 	o := orm.NewOrm()
 
@@ -34,7 +29,6 @@ func main() {
 	if err != nil {
 
 	}
-
 
 	fmt.Println(id, user.Id)
 
