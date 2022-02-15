@@ -2,7 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd6c586-23db-481e-83b4-b917a193333c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/goconvey/test1/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/goconvey/test1/main_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/log/log/file.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sizedwaitgroup/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/log/log/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/packages/log/log/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/struct/test7/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/struct/test7/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syncBook/152-1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/152-1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syncBook/152-2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/152-2/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syncBook/152-3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/152-3/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syncBook/156/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/156/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syncBook/161/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/161/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syncBook/162/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/162/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syncBook/166/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/166/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/syncBook/167/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/167/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +32,9 @@
       </list>
     </option>
   </component>
-  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Go" />
+  <component name="GOROOT" url="file://$PROJECT_DIR$/../../../Go1.17.6" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../go-buff-pool" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GoLibraries">
     <option name="indexEntireGoPath" value="false" />
@@ -41,14 +57,14 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tradplus_event_server" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+    <property name="settings.editor.selected.configurable" value="go.sdk" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
