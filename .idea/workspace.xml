@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd6c586-23db-481e-83b4-b917a193333c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/goconvey/test1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/goconvey/test1/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/log/log/file.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sizedwaitgroup/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/config/go-ini/config.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/config/go-ini/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/config/json/config.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/packages/config/json/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/packages/log/log/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/packages/log/log/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/struct/test7/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/struct/test7/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syncBook/152-1/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/152-1/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syncBook/152-2/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/152-2/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syncBook/152-3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/152-3/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syncBook/156/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/156/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syncBook/161/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/161/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syncBook/162/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/162/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syncBook/166/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/166/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/syncBook/167/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/sync-book/167/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +47,7 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tradplus_event_server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../tradplus_report_api" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -73,11 +63,11 @@
       <recent name="D:\GoPath\src\test1\grpc\test1-client" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GoPath\src\go-buff-pool\packages" />
       <recent name="D:\GoPath\src\go-buff-pool\worker\work2" />
       <recent name="D:\GoPath\src\go-buff-pool\worker\work1" />
       <recent name="D:\GoPath\src\go-buff-pool\mysql" />
       <recent name="D:\GoPath\src\go-buff-pool\interview" />
-      <recent name="D:\GoPath\src\go-buff-pool\worker" />
     </key>
   </component>
   <component name="RunManager" selected="Go Build.go build mingyuan/0306">
@@ -141,6 +131,9 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.ini" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

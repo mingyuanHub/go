@@ -14,4 +14,5 @@ require (
 	golang.org/x/tools v0.0.0-20201211185031-d93e913c1a58
 	google.golang.org/grpc v1.26.0
 	google.golang.org/protobuf v1.26.0
+	gopkg.in/ini.v1 v1.66.4 // indirect
 )
