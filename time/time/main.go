@@ -19,18 +19,18 @@ func main() {
 
 //-------------------------------------------------------
 
-package main
-
-import (
-	"time"
-	"fmt"
-)
-
-func main() {
-	timer := time.NewTimer(time.Second * 2)
-
-	select {
-	case <- timer.C:
-		fmt.Println("time done")
-	}
-}
+//package main
+//
+//import (
+//	"time"
+//	"fmt"
+//)
+//
+//func main() {
+//	timer := time.NewTimer(time.Second * 2)
+//
+//	select {
+//	case <- timer.C:
+//		fmt.Println("time done")
+//	}
+//}
