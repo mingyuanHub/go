@@ -7,6 +7,10 @@ import (
 
 func main() {
 
+	//+8 Asia/Shanghai
+	//+0 Europe/London
+	//-8 America/Los_Angeles
+
 	//获取时区，日期对应的时间戳
 	timeZone := "America/Los_Angeles"
 	date := "2022-02-18 16:00:00"
