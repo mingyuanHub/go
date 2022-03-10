@@ -3,22 +3,27 @@ package main
 import (
 	"fmt"
 	"github.com/gomodule/redigo/redis"
-	"reflect"
 	"time"
 )
 
 func newRedisPool() *redis.Pool {
-	return &redis.Pool{
-		MaxIdle: 1000,
-		IdleTimeout: 240 * time.Second,
-		Dial: func () (redis.Conn, error) {
-			redis.DialPassword("root")
-			fmt.Println(1111)
-			return redis.Dial(
-					"tcp",
-					fmt.Sprintf("%s:%s", "127.0.0.1", "6379"),
 
-				)
+	dialOption := []redis.DialOption{
+		redis.DialPassword("tradplus123"),
+		redis.DialReadTimeout(100 * time.Millisecond),
+		redis.DialWriteTimeout(100 * time.Millisecond),
+	}
+
+	return &redis.Pool{
+		MaxIdle:     1000,
+		MaxActive:   1000,
+		IdleTimeout: 240 * time.Second,
+		Dial: func() (redis.Conn, error) {
+			return redis.Dial(
+				"tcp",
+				fmt.Sprintf("%s:%d", "172.16.0.210", 6379),
+				dialOption...
+			)
 		},
 	}
 }
@@ -38,18 +43,10 @@ func main() {
 	conn = RedisPool.Get()
 	conn = RedisPool.Get()
 	defer conn.Close()
-	fmt.Println(11122, conn)
-	fmt.Println(2222, conn.Err())
+
 	a, err := redis.Bool(conn.Do("EXISTS", "a"))
-	fmt.Println(3333, a, err)
+	fmt.Println(111, a, err)
 	conn.Do("set", "test", "d")
 
 	fmt.Println(redis.String(conn.Do("SETEX", "b", 30, 1)))
-
-
-	var a1 interface{}
-	fmt.Println(reflect.TypeOf(a1))
-	a1 = a1.(string)
-
-
 }
