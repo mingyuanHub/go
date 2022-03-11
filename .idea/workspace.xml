@@ -2,17 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5bd6c586-23db-481e-83b4-b917a193333c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/big/test/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/kafka/chengsheng/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/redis/go-redis/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/redis/redigo/bloom-filter/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/packages/redis/redigo/bloom-filter/main_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/point/slice/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/math/ln/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pool/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/objectPool/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/redis/pool.go" beforeDir="false" afterPath="$PROJECT_DIR$/packages/redis/redigo/pool.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
