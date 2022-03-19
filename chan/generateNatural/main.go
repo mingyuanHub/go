@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//素数筛
 func GenerateNatural() chan int {
 	ch := make(chan int)
 

@@ -12,11 +12,11 @@ type User struct {
 }
 
 func init() {
-	orm.RegisterDataBase("default", "mysql", "root:root@tcp(127.0.0.1:3306)/beego?charset=utf8&loc=Local")
+	orm.RegisterDataBase("select", "mysql", "root:root@tcp(127.0.0.1:3306)/beego?charset=utf8&loc=Local")
 
 	orm.RegisterModel(new(User))
 
-	//orm.RunSyncdb("default", false, true)
+	//orm.RunSyncdb("select", false, true)
 }
 
 func main() {

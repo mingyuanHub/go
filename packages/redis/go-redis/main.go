@@ -18,7 +18,7 @@ func single() {
 	rdb := redis.NewClient(&redis.Options{
 		Addr:     fmt.Sprintf("%s:%d", "172.16.0.210", 6379),
 		Password: "tradplus123", // no password set
-		DB:       0,             // use default DB
+		DB:       0,             // use select DB
 	})
 
 	err := rdb.Set(ctx, "key", "value", 0).Err()
