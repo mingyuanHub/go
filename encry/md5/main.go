@@ -24,8 +24,10 @@ func genMd5(str string) string {
 }
 
 func main()  {
-	id := BucketMod("UID-f3bd5289-7cb2-4a33-8763-d811d3425906")
+	id := BucketMod("UID-eba14ba0-4509-42af-8e43-d00f2a6cdaa0")
 	fmt.Println(id)
+
+
 }
 
 
