@@ -1,6 +1,8 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
 	a := "abc"
@@ -18,5 +20,14 @@ func main() {
 
 	c := make([]int, 1, 3)
 
-	c[6] = 7
+	c[0] = 7
+
+
+	fmt.Println(struct {
+		Name string
+	}{"car"})
+}
+
+func String(ad interface{}) string {
+	return fmt.Sprintf("%+v", ad)
 }
