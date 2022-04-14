@@ -9,5 +9,5 @@ type ProdService struct {
 }
 
 func (this *ProdService) GetProdStock(ctx context.Context, in *ProdRequest) (*ProdResponse, error) {
-	return &ProdResponse{ProdStock:26}, nil
+	return &ProdResponse{ProdStock: 26}, nil
 }

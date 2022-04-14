@@ -15,7 +15,7 @@ func main()  {
 	}
 	con, err := grpc.Dial(":8084", grpc.WithTransportCredentials(creds))
 
-	//con, err := grpc.Dial(":8084", grpc.WithInsecure())
+	//con, err := rpc-middle.Dial(":8084", rpc-middle.WithInsecure())
 	if err != nil {
 		fmt.Println(err)
 	}

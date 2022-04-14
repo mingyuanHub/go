@@ -2,7 +2,7 @@ package main
 
 import "net/rpc"
 
-const HelloServiceName = "grpc/rpc/HelloService"
+const HelloServiceName = "rpc-basic/rpc-middle/HelloService"
 
 type HelloServiceInterface = interface {
 	Hello(request string, reply *string) error

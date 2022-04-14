@@ -1,10 +1,10 @@
 package main
 
 import (
+	"fmt"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 	"net"
-	"fmt"
 	"test1/services"
 )
 
@@ -15,7 +15,7 @@ func main() {
 	}
 	rpcServer := grpc.NewServer(grpc.Creds(creds))
 
-	//rpcServer := grpc.NewServer()
+	//rpcServer := rpc-middle.NewServer()
 	services.RegisterProdServiceServer(rpcServer, new(services.ProdService))
 	services.RegisterMaServiceServer(rpcServer, new(services.MaService))
 

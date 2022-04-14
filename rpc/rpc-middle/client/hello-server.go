@@ -2,7 +2,7 @@ package main
 
 import "net/rpc"
 
-const HelloServiceName = "grpc/rpc/HelloService"
+const HelloServiceName = "rpc-basic/rpc-middle/HelloService"
 
 type HelloServiceInterface = interface {
 	Hello(request string, reply *string) error
@@ -25,8 +25,7 @@ func DiaHelloService(network string, address string) (*HelloServiceClient, error
 	if err != nil {
 
 	}
-
-	return &HelloServiceClient{Client:c}, nil
+	return &HelloServiceClient{Client: c}, nil
 }
 
 func (p *HelloServiceClient) Hello(request string, reply *string) error{

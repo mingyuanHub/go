@@ -9,5 +9,5 @@ type MaService struct {
 }
 
 func (this *MaService) GetName(ctx context.Context, request *MaRequest) (*MaResponse, error) {
-	return &MaResponse{Name:222}, nil
+	return &MaResponse{Name: 222}, nil
 }
