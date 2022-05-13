@@ -121,6 +121,35 @@ func crawl(startUrl string, fileName string) {
 		log.Println("response received", r.StatusCode)
 	})
 
+	// 解析章节内容 并 写入文本文件
+	c.OnHTML("div[id='content']", func(e *colly.HTMLElement) {
+		// title
+		title := e.DOM.ParentsUntil("body").Find(".bookname h1").Text() + "\n\n"
+
+		println(title)
+
+		// content
+		e.DOM.Find("p").Remove()
+		content := e.DOM.Text()
+		str := title + content
+
+		writeToText(str, fileName)
+	})
+
+	// 翻页
+	c.OnHTML("a[href]", func(e *colly.HTMLElement) {
+		e.DOM.EachWithBreak(func(i int, s *goquery.Selection) bool {
+			if "下一章" == s.Text() {
+				baseUrl, _ := s.Attr("href")
+				url := "https://www.xbiquge.la" + baseUrl
+
+				c.Visit(url)
+				return false
+			}
+			return true
+		})
+	})
+
 	c.OnError(func(r *colly.Response, err error) {
 		log.Println("error:", r.StatusCode, err)
 	})
@@ -132,8 +161,8 @@ func crawl(startUrl string, fileName string) {
 // 将字符串，写入文本文件
 func writeToText(str string, fileName string) {
 	wd, _ := os.Getwd()
-	filePath := wd + "\\file\\" + fileName  // 存放小说的TXT文件路径
-	f, err := os.OpenFile(filePath, os.O_APPEND|os.O_WRONLY, 0644)  // 以追加方式写入
+	filePath := wd + "\\file1\\" + fileName  // 存放小说的TXT文件路径
+	f, err := os.OpenFile(filePath, os.O_CREATE|os.O_APPEND|os.O_WRONLY, 0644)  // 以追加方式写入
 	if err != nil {
 		log.Fatal(err)
 	}
