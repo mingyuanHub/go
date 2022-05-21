@@ -54,4 +54,9 @@ func main() {
 	//nihaoD.demo.Name = nihaoe.Name
 	//
 	//fmt.Println(nihaod.Name, nihaoD.demo.Name, nihaoe.Name)
+
+
+
+	c := "       cccccc"
+	fmt.Println(strings.Trim(c, " "))
 }
