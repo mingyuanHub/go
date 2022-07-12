@@ -29,6 +29,11 @@ func handleConnect(conn net.Conn) {
 func main() {
 	fmt.Printf("server start %v\n", config.ServerAddress)
 	listener, err := net.Listen(config.ServerNetworkType, config.ServerAddress)
+
+	////第二种监听方式 ListenTCP
+	//tcpServer, _ := net.ResolveTCPAddr("127.0.0.1","9090")
+	//listener, _ = net.ListenTCP("tcp", tcpServer)
+
 	if err != nil {
 		panic(err)
 	}
