@@ -18,12 +18,12 @@ func main() {
 	// 注册服务
 	// consulClient.Agent()先获取当前机器上的consul agent节点
 	consulClient.Agent().ServiceRegister(&api.AgentServiceRegistration{
-		ID:      "MyService 222",
-		Name:    "My Service",
+		ID:      "InstanceId222",
+		Name:    "MyService",
 		Address: "127.0.0.1",
 		Port:    5051,
 		Check: &api.AgentServiceCheck{
-			CheckID:  "MyService Check 2222",
+			CheckID:  "CheckId22222",
 			TCP:      "127.0.0.1:5051",
 			Interval: "10s",
 			Timeout:  "1s",
