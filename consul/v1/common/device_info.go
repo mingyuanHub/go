@@ -8,7 +8,10 @@ import (
 
 func GetPort(addr string) (string, error) {
 	urlInfo, err := url.Parse(addr)
-	return urlInfo.Port()
+	if err != nil {
+		return "", err
+	}
+	return urlInfo.Port(), nil
 }
 
 func GetLANHost() string {
