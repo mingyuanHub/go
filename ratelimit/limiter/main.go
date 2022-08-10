@@ -6,6 +6,9 @@ import (
 	"time"
 )
 
+
+//golang.org/x/time/rate 用户控制频率， 不能控制频次
+
 func main()  {
 	var rateLimitR = 2
 	var rateLimitB = 5
