@@ -4,14 +4,16 @@ import (
 	"net"
 	"net/url"
 	"strings"
+	"strconv"
 )
 
-func GetPort(addr string) (string, error) {
+func GetPort(addr string) (int, error) {
 	urlInfo, err := url.Parse(addr)
 	if err != nil {
-		return "", err
+		return 80, err
 	}
-	return urlInfo.Port(), nil
+
+	return strconv.Atoi(urlInfo.Port())
 }
 
 func GetLANHost() string {

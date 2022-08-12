@@ -52,9 +52,9 @@ func main() {
 	}
 	srv := grpc.NewServer(srvOpts...)
 
-	var people = &People{}
+	var service = &Service{}
 
-	proto.RegisterHelloServer(srv, people)
+	proto.RegisterHelloServer(srv, service)
 
 	// 注册服务端反射服务
 	reflection.Register(srv)

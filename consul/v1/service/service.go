@@ -5,11 +5,11 @@ import (
 	"mingyuan/consul/v1/proto"
 )
 
-type People struct{
+type Service struct{
 	Name string
 }
 
-func (p *People) SayHello(c context.Context, s *proto.HelloRequest) (*proto.HelloReply, error) {
+func (p *Service) SayHello(c context.Context, s *proto.HelloRequest) (*proto.HelloReply, error) {
 	return &proto.HelloReply{
 		Message: "hello " + s.Name,
 	}, nil
