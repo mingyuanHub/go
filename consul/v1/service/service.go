@@ -11,6 +11,6 @@ type Service struct{
 
 func (p *Service) SayHello(c context.Context, s *proto.HelloRequest) (*proto.HelloReply, error) {
 	return &proto.HelloReply{
-		Message: "hello " + s.Name,
+		Message: "hello, " + s.Name,
 	}, nil
 }

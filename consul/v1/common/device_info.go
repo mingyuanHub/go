@@ -3,11 +3,16 @@ package common
 import (
 	"net"
 	"net/url"
-	"strings"
 	"strconv"
+	"strings"
 )
 
 func GetPort(addr string) (int, error) {
+
+	if strings.Index(addr, "http") == -1 {
+		addr = "http://" + addr
+	}
+
 	urlInfo, err := url.Parse(addr)
 	if err != nil {
 		return 80, err

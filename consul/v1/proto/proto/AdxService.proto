@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option objc_class_prefix = "HLW";
+//option objc_class_prefix = "HLW";
 
 //option go_package 用于生成的.pb.go文件,在引用时和生成go包名时起作用
 option go_package = "./proto";

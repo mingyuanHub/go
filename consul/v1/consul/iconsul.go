@@ -28,7 +28,7 @@ func ServeWithConsul(conf *ConsulConf, srv *grpc.Server, lister net.Listener) er
 		Address: "127.0.0.1",
 		Port:    conf.Registration.Port,
 		Check: &api.AgentServiceCheck{
-			CheckID:  "CheckId111111",
+			CheckID:  "CheckId",
 			TCP:      "127.0.0.1:5050",
 			Interval: "10s",
 			Timeout:  "1s",

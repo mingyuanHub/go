@@ -22,6 +22,10 @@ type Conf struct {
 func main() {
 	var err error
 
+	if err := iconsul.DefaultClient.Start(); err != nil {
+		fmt.Println("iconsul start failed,remote config unusable,err:%s", err)
+	}
+
 	fmt.Println(goversion.Version())
 
 	var conf = &Conf{
@@ -54,7 +58,7 @@ func main() {
 
 	var service = &Service{}
 
-	proto.RegisterHelloServer(srv, service)
+	proto.RegisterAdxServerServer(srv, service)
 
 	// 注册服务端反射服务
 	reflection.Register(srv)

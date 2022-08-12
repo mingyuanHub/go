@@ -16,9 +16,9 @@ func main() {
 
 	defer client.Close()
 
-	c := proto.NewHelloClient(client)
+	c := proto.NewAdxServerClient(client)
 	r, err := c.SayHello(context.Background(), &proto.HelloRequest{
-		Name: "world",
+		Name: "i am client",
 	})
 
 	if err != nil {
