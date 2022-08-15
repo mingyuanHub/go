@@ -7,8 +7,8 @@ option go_package = "./proto";
 
 package main;
 
-service AdxServer{
-  rpc SayHello (HelloRequest) returns (HelloReply){}
+service TestServer{
+  rpc Hello (HelloRequest) returns (HelloReply){}
 }
 
 message HelloRequest{

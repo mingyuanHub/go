@@ -9,7 +9,7 @@ type Service struct{
 	Name string
 }
 
-func (p *Service) SayHello(c context.Context, s *proto.HelloRequest) (*proto.HelloReply, error) {
+func (p *Service) Hello(c context.Context, s *proto.HelloRequest) (*proto.HelloReply, error) {
 	return &proto.HelloReply{
 		Message: "hello, " + s.Name,
 	}, nil

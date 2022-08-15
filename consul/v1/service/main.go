@@ -58,7 +58,7 @@ func main() {
 
 	var service = &Service{}
 
-	proto.RegisterAdxServerServer(srv, service)
+	proto.RegisterTestServerServer(srv, service)
 
 	// 注册服务端反射服务
 	reflection.Register(srv)
