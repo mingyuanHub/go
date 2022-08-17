@@ -1,8 +1,13 @@
-package main
+package service
 
 import (
 	"context"
 	"mingyuan/consul/v1/proto"
+)
+
+const (
+	ServerName = "v1-service2"
+	ServerAddr = "127.0.0.1:6002"
 )
 
 type Service struct{

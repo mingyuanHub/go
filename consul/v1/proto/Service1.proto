@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+//option go_package 用于生成的.pb.go文件,在引用时和生成go包名时起作用
+option go_package = "./proto";
+
+service ProtoServer1{
+  rpc Hi (HiRequest) returns (HiReply){}
+}
+
+message HiRequest{
+  string name = 1;
+}
+
+message HiReply{
+  string message = 1;
+}
+

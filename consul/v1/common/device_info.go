@@ -21,6 +21,20 @@ func GetPort(addr string) (int, error) {
 	return strconv.Atoi(urlInfo.Port())
 }
 
+func GetIp(addr string) (string, error) {
+
+	if strings.Index(addr, "http") == -1 {
+		addr = "http://" + addr
+	}
+
+	urlInfo, err := url.Parse(addr)
+	if err != nil {
+		return "", err
+	}
+
+	return urlInfo.Hostname(), nil
+}
+
 func GetLANHost() string {
 	// 思路来自于Python版本的内网IP获取，其他版本不准确
 	conn, err := net.Dial("udp", "8.8.8.8:80")

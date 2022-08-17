@@ -2,7 +2,7 @@
 // versions:
 // 	protoc-gen-go v1.26.0
 // 	protoc        v3.17.3
-// source: TestService.proto
+// source: Service2.proto
 
 package proto
 
@@ -35,7 +35,7 @@ type HelloRequest struct {
 func (x *HelloRequest) Reset() {
 	*x = HelloRequest{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_TestService_proto_msgTypes[0]
+		mi := &file_Service2_proto_msgTypes[0]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -48,7 +48,7 @@ func (x *HelloRequest) String() string {
 func (*HelloRequest) ProtoMessage() {}
 
 func (x *HelloRequest) ProtoReflect() protoreflect.Message {
-	mi := &file_TestService_proto_msgTypes[0]
+	mi := &file_Service2_proto_msgTypes[0]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -61,7 +61,7 @@ func (x *HelloRequest) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HelloRequest.ProtoReflect.Descriptor instead.
 func (*HelloRequest) Descriptor() ([]byte, []int) {
-	return file_TestService_proto_rawDescGZIP(), []int{0}
+	return file_Service2_proto_rawDescGZIP(), []int{0}
 }
 
 func (x *HelloRequest) GetName() string {
@@ -82,7 +82,7 @@ type HelloReply struct {
 func (x *HelloReply) Reset() {
 	*x = HelloReply{}
 	if protoimpl.UnsafeEnabled {
-		mi := &file_TestService_proto_msgTypes[1]
+		mi := &file_Service2_proto_msgTypes[1]
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		ms.StoreMessageInfo(mi)
 	}
@@ -95,7 +95,7 @@ func (x *HelloReply) String() string {
 func (*HelloReply) ProtoMessage() {}
 
 func (x *HelloReply) ProtoReflect() protoreflect.Message {
-	mi := &file_TestService_proto_msgTypes[1]
+	mi := &file_Service2_proto_msgTypes[1]
 	if protoimpl.UnsafeEnabled && x != nil {
 		ms := protoimpl.X.MessageStateOf(protoimpl.Pointer(x))
 		if ms.LoadMessageInfo() == nil {
@@ -108,7 +108,7 @@ func (x *HelloReply) ProtoReflect() protoreflect.Message {
 
 // Deprecated: Use HelloReply.ProtoReflect.Descriptor instead.
 func (*HelloReply) Descriptor() ([]byte, []int) {
-	return file_TestService_proto_rawDescGZIP(), []int{1}
+	return file_Service2_proto_rawDescGZIP(), []int{1}
 }
 
 func (x *HelloReply) GetMessage() string {
@@ -118,43 +118,43 @@ func (x *HelloReply) GetMessage() string {
 	return ""
 }
 
-var File_TestService_proto protoreflect.FileDescriptor
+var File_Service2_proto protoreflect.FileDescriptor
 
-var file_TestService_proto_rawDesc = []byte{
-	0x0a, 0x11, 0x54, 0x65, 0x73, 0x74, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63, 0x65, 0x2e, 0x70, 0x72,
-	0x6f, 0x74, 0x6f, 0x12, 0x04, 0x6d, 0x61, 0x69, 0x6e, 0x22, 0x22, 0x0a, 0x0c, 0x48, 0x65, 0x6c,
-	0x6c, 0x6f, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x12, 0x12, 0x0a, 0x04, 0x6e, 0x61, 0x6d,
-	0x65, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x04, 0x6e, 0x61, 0x6d, 0x65, 0x22, 0x26, 0x0a,
-	0x0a, 0x48, 0x65, 0x6c, 0x6c, 0x6f, 0x52, 0x65, 0x70, 0x6c, 0x79, 0x12, 0x18, 0x0a, 0x07, 0x6d,
-	0x65, 0x73, 0x73, 0x61, 0x67, 0x65, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x07, 0x6d, 0x65,
-	0x73, 0x73, 0x61, 0x67, 0x65, 0x32, 0x3d, 0x0a, 0x0a, 0x54, 0x65, 0x73, 0x74, 0x53, 0x65, 0x72,
-	0x76, 0x65, 0x72, 0x12, 0x2f, 0x0a, 0x05, 0x48, 0x65, 0x6c, 0x6c, 0x6f, 0x12, 0x12, 0x2e, 0x6d,
-	0x61, 0x69, 0x6e, 0x2e, 0x48, 0x65, 0x6c, 0x6c, 0x6f, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74,
-	0x1a, 0x10, 0x2e, 0x6d, 0x61, 0x69, 0x6e, 0x2e, 0x48, 0x65, 0x6c, 0x6c, 0x6f, 0x52, 0x65, 0x70,
-	0x6c, 0x79, 0x22, 0x00, 0x42, 0x09, 0x5a, 0x07, 0x2e, 0x2f, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x62,
-	0x06, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x33,
+var file_Service2_proto_rawDesc = []byte{
+	0x0a, 0x0e, 0x53, 0x65, 0x72, 0x76, 0x69, 0x63, 0x65, 0x32, 0x2e, 0x70, 0x72, 0x6f, 0x74, 0x6f,
+	0x12, 0x04, 0x6d, 0x61, 0x69, 0x6e, 0x22, 0x22, 0x0a, 0x0c, 0x48, 0x65, 0x6c, 0x6c, 0x6f, 0x52,
+	0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x12, 0x12, 0x0a, 0x04, 0x6e, 0x61, 0x6d, 0x65, 0x18, 0x01,
+	0x20, 0x01, 0x28, 0x09, 0x52, 0x04, 0x6e, 0x61, 0x6d, 0x65, 0x22, 0x26, 0x0a, 0x0a, 0x48, 0x65,
+	0x6c, 0x6c, 0x6f, 0x52, 0x65, 0x70, 0x6c, 0x79, 0x12, 0x18, 0x0a, 0x07, 0x6d, 0x65, 0x73, 0x73,
+	0x61, 0x67, 0x65, 0x18, 0x01, 0x20, 0x01, 0x28, 0x09, 0x52, 0x07, 0x6d, 0x65, 0x73, 0x73, 0x61,
+	0x67, 0x65, 0x32, 0x3f, 0x0a, 0x0c, 0x50, 0x72, 0x6f, 0x74, 0x6f, 0x53, 0x65, 0x72, 0x76, 0x65,
+	0x72, 0x32, 0x12, 0x2f, 0x0a, 0x05, 0x48, 0x65, 0x6c, 0x6c, 0x6f, 0x12, 0x12, 0x2e, 0x6d, 0x61,
+	0x69, 0x6e, 0x2e, 0x48, 0x65, 0x6c, 0x6c, 0x6f, 0x52, 0x65, 0x71, 0x75, 0x65, 0x73, 0x74, 0x1a,
+	0x10, 0x2e, 0x6d, 0x61, 0x69, 0x6e, 0x2e, 0x48, 0x65, 0x6c, 0x6c, 0x6f, 0x52, 0x65, 0x70, 0x6c,
+	0x79, 0x22, 0x00, 0x42, 0x09, 0x5a, 0x07, 0x2e, 0x2f, 0x70, 0x72, 0x6f, 0x74, 0x6f, 0x62, 0x06,
+	0x70, 0x72, 0x6f, 0x74, 0x6f, 0x33,
 }
 
 var (
-	file_TestService_proto_rawDescOnce sync.Once
-	file_TestService_proto_rawDescData = file_TestService_proto_rawDesc
+	file_Service2_proto_rawDescOnce sync.Once
+	file_Service2_proto_rawDescData = file_Service2_proto_rawDesc
 )
 
-func file_TestService_proto_rawDescGZIP() []byte {
-	file_TestService_proto_rawDescOnce.Do(func() {
-		file_TestService_proto_rawDescData = protoimpl.X.CompressGZIP(file_TestService_proto_rawDescData)
+func file_Service2_proto_rawDescGZIP() []byte {
+	file_Service2_proto_rawDescOnce.Do(func() {
+		file_Service2_proto_rawDescData = protoimpl.X.CompressGZIP(file_Service2_proto_rawDescData)
 	})
-	return file_TestService_proto_rawDescData
+	return file_Service2_proto_rawDescData
 }
 
-var file_TestService_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
-var file_TestService_proto_goTypes = []interface{}{
+var file_Service2_proto_msgTypes = make([]protoimpl.MessageInfo, 2)
+var file_Service2_proto_goTypes = []interface{}{
 	(*HelloRequest)(nil), // 0: main.HelloRequest
 	(*HelloReply)(nil),   // 1: main.HelloReply
 }
-var file_TestService_proto_depIdxs = []int32{
-	0, // 0: main.TestServer.Hello:input_type -> main.HelloRequest
-	1, // 1: main.TestServer.Hello:output_type -> main.HelloReply
+var file_Service2_proto_depIdxs = []int32{
+	0, // 0: main.ProtoServer2.Hello:input_type -> main.HelloRequest
+	1, // 1: main.ProtoServer2.Hello:output_type -> main.HelloReply
 	1, // [1:2] is the sub-list for method output_type
 	0, // [0:1] is the sub-list for method input_type
 	0, // [0:0] is the sub-list for extension type_name
@@ -162,13 +162,13 @@ var file_TestService_proto_depIdxs = []int32{
 	0, // [0:0] is the sub-list for field type_name
 }
 
-func init() { file_TestService_proto_init() }
-func file_TestService_proto_init() {
-	if File_TestService_proto != nil {
+func init() { file_Service2_proto_init() }
+func file_Service2_proto_init() {
+	if File_Service2_proto != nil {
 		return
 	}
 	if !protoimpl.UnsafeEnabled {
-		file_TestService_proto_msgTypes[0].Exporter = func(v interface{}, i int) interface{} {
+		file_Service2_proto_msgTypes[0].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HelloRequest); i {
 			case 0:
 				return &v.state
@@ -180,7 +180,7 @@ func file_TestService_proto_init() {
 				return nil
 			}
 		}
-		file_TestService_proto_msgTypes[1].Exporter = func(v interface{}, i int) interface{} {
+		file_Service2_proto_msgTypes[1].Exporter = func(v interface{}, i int) interface{} {
 			switch v := v.(*HelloReply); i {
 			case 0:
 				return &v.state
@@ -197,20 +197,20 @@ func file_TestService_proto_init() {
 	out := protoimpl.TypeBuilder{
 		File: protoimpl.DescBuilder{
 			GoPackagePath: reflect.TypeOf(x{}).PkgPath(),
-			RawDescriptor: file_TestService_proto_rawDesc,
+			RawDescriptor: file_Service2_proto_rawDesc,
 			NumEnums:      0,
 			NumMessages:   2,
 			NumExtensions: 0,
 			NumServices:   1,
 		},
-		GoTypes:           file_TestService_proto_goTypes,
-		DependencyIndexes: file_TestService_proto_depIdxs,
-		MessageInfos:      file_TestService_proto_msgTypes,
+		GoTypes:           file_Service2_proto_goTypes,
+		DependencyIndexes: file_Service2_proto_depIdxs,
+		MessageInfos:      file_Service2_proto_msgTypes,
 	}.Build()
-	File_TestService_proto = out.File
-	file_TestService_proto_rawDesc = nil
-	file_TestService_proto_goTypes = nil
-	file_TestService_proto_depIdxs = nil
+	File_Service2_proto = out.File
+	file_Service2_proto_rawDesc = nil
+	file_Service2_proto_goTypes = nil
+	file_Service2_proto_depIdxs = nil
 }
 
 // Reference imports to suppress errors if they are not otherwise used.
@@ -221,74 +221,74 @@ var _ grpc.ClientConnInterface
 // is compatible with the grpc package it is being compiled against.
 const _ = grpc.SupportPackageIsVersion6
 
-// TestServerClient is the client API for TestServer service.
+// ProtoServer2Client is the client API for ProtoServer2 service.
 //
 // For semantics around ctx use and closing/ending streaming RPCs, please refer to https://godoc.org/google.golang.org/grpc#ClientConn.NewStream.
-type TestServerClient interface {
+type ProtoServer2Client interface {
 	Hello(ctx context.Context, in *HelloRequest, opts ...grpc.CallOption) (*HelloReply, error)
 }
 
-type testServerClient struct {
+type protoServer2Client struct {
 	cc grpc.ClientConnInterface
 }
 
-func NewTestServerClient(cc grpc.ClientConnInterface) TestServerClient {
-	return &testServerClient{cc}
+func NewProtoServer2Client(cc grpc.ClientConnInterface) ProtoServer2Client {
+	return &protoServer2Client{cc}
 }
 
-func (c *testServerClient) Hello(ctx context.Context, in *HelloRequest, opts ...grpc.CallOption) (*HelloReply, error) {
+func (c *protoServer2Client) Hello(ctx context.Context, in *HelloRequest, opts ...grpc.CallOption) (*HelloReply, error) {
 	out := new(HelloReply)
-	err := c.cc.Invoke(ctx, "/main.TestServer/Hello", in, out, opts...)
+	err := c.cc.Invoke(ctx, "/main.ProtoServer2/Hello", in, out, opts...)
 	if err != nil {
 		return nil, err
 	}
 	return out, nil
 }
 
-// TestServerServer is the server API for TestServer service.
-type TestServerServer interface {
+// ProtoServer2Server is the server API for ProtoServer2 service.
+type ProtoServer2Server interface {
 	Hello(context.Context, *HelloRequest) (*HelloReply, error)
 }
 
-// UnimplementedTestServerServer can be embedded to have forward compatible implementations.
-type UnimplementedTestServerServer struct {
+// UnimplementedProtoServer2Server can be embedded to have forward compatible implementations.
+type UnimplementedProtoServer2Server struct {
 }
 
-func (*UnimplementedTestServerServer) Hello(context.Context, *HelloRequest) (*HelloReply, error) {
+func (*UnimplementedProtoServer2Server) Hello(context.Context, *HelloRequest) (*HelloReply, error) {
 	return nil, status.Errorf(codes.Unimplemented, "method Hello not implemented")
 }
 
-func RegisterTestServerServer(s *grpc.Server, srv TestServerServer) {
-	s.RegisterService(&_TestServer_serviceDesc, srv)
+func RegisterProtoServer2Server(s *grpc.Server, srv ProtoServer2Server) {
+	s.RegisterService(&_ProtoServer2_serviceDesc, srv)
 }
 
-func _TestServer_Hello_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
+func _ProtoServer2_Hello_Handler(srv interface{}, ctx context.Context, dec func(interface{}) error, interceptor grpc.UnaryServerInterceptor) (interface{}, error) {
 	in := new(HelloRequest)
 	if err := dec(in); err != nil {
 		return nil, err
 	}
 	if interceptor == nil {
-		return srv.(TestServerServer).Hello(ctx, in)
+		return srv.(ProtoServer2Server).Hello(ctx, in)
 	}
 	info := &grpc.UnaryServerInfo{
 		Server:     srv,
-		FullMethod: "/main.TestServer/Hello",
+		FullMethod: "/main.ProtoServer2/Hello",
 	}
 	handler := func(ctx context.Context, req interface{}) (interface{}, error) {
-		return srv.(TestServerServer).Hello(ctx, req.(*HelloRequest))
+		return srv.(ProtoServer2Server).Hello(ctx, req.(*HelloRequest))
 	}
 	return interceptor(ctx, in, info, handler)
 }
 
-var _TestServer_serviceDesc = grpc.ServiceDesc{
-	ServiceName: "main.TestServer",
-	HandlerType: (*TestServerServer)(nil),
+var _ProtoServer2_serviceDesc = grpc.ServiceDesc{
+	ServiceName: "main.ProtoServer2",
+	HandlerType: (*ProtoServer2Server)(nil),
 	Methods: []grpc.MethodDesc{
 		{
 			MethodName: "Hello",
-			Handler:    _TestServer_Hello_Handler,
+			Handler:    _ProtoServer2_Hello_Handler,
 		},
 	},
 	Streams:  []grpc.StreamDesc{},
-	Metadata: "TestService.proto",
+	Metadata: "Service2.proto",
 }

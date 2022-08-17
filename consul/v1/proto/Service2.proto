@@ -7,7 +7,7 @@ option go_package = "./proto";
 
 package main;
 
-service TestServer{
+service ProtoServer2{
   rpc Hello (HelloRequest) returns (HelloReply){}
 }
 
