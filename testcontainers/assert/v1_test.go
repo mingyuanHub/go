@@ -2,9 +2,8 @@ package main
 
 import (
 	"errors"
-	"fmt"
-	"testing"
 	"github.com/stretchr/testify/assert"
+	"testing"
 )
 
 func TestSomething(t *testing.T) {
@@ -17,17 +16,17 @@ func TestSomething(t *testing.T) {
 	// assert inequality
 	assert.NotEqual(123, 456, "they should not be equal")
 
-	er := assert.NotEqual(123, 123, "they should not be equal")
-
-	fmt.Println(11111, er)
+	assert.Equal(123, 123, "they should not be equal")
 
 	type People struct {
 		Value string
 	}
 
-	var object People
+	var object *People = &People{
+		Value: "Something",
+	}
 	// assert for nil (good for errors)
-	assert.Nil(object)
+	//assert.Nil(object)
 
 	// assert for not nil (good when you expect something)
 	if assert.NotNil(object) {
