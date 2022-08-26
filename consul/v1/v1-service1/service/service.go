@@ -5,6 +5,7 @@ import (
 	"google.golang.org/grpc"
 	"log"
 	"mingyuan/consul/v1/proto"
+	"mingyuan/consul/v1/v1-service2/client"
 )
 
 const (
@@ -19,6 +20,8 @@ type Service struct {
 }
 
 func NewService() *Service {
+
+	client.GetService2Client()
 
 	client, err := grpc.Dial("127.0.0.1:6002", grpc.WithInsecure())
 	if err != nil {

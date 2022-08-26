@@ -31,7 +31,7 @@ func main() {
 
 	var conf = &Conf{
 		Consul: &iconsul.ConsulConf{
-			Registration: &iconsul.Registration{
+			Registration: &iconsul.RegistrationConf{
 				Name: service.ServerName,
 				Addr: service.ServerAddr,
 				Id:   fmt.Sprintf("%s:%s", service.ServerName, service.ServerAddr),
