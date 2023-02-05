@@ -3,15 +3,36 @@ package common
 import (
 	"net"
 	"net/url"
+	"strconv"
 	"strings"
 )
 
-func GetPort(addr string) (string, error) {
+func GetPort(addr string) (int, error) {
+
+	if strings.Index(addr, "http") == -1 {
+		addr = "http://" + addr
+	}
+
+	urlInfo, err := url.Parse(addr)
+	if err != nil {
+		return 80, err
+	}
+
+	return strconv.Atoi(urlInfo.Port())
+}
+
+func GetIp(addr string) (string, error) {
+
+	if strings.Index(addr, "http") == -1 {
+		addr = "http://" + addr
+	}
+
 	urlInfo, err := url.Parse(addr)
 	if err != nil {
 		return "", err
 	}
-	return urlInfo.Port(), nil
+
+	return urlInfo.Hostname(), nil
 }
 
 func GetLANHost() string {

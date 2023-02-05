@@ -1,14 +1,14 @@
 syntax = "proto3";
 
-option objc_class_prefix = "HLW";
+//option objc_class_prefix = "HLW";
 
 //option go_package 用于生成的.pb.go文件,在引用时和生成go包名时起作用
 option go_package = "./proto";
 
 package main;
 
-service Hello{
-  rpc SayHello (HelloRequest) returns (HelloReply){}
+service ProtoServer2{
+  rpc Hello (HelloRequest) returns (HelloReply){}
 }
 
 message HelloRequest{

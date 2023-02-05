@@ -9,16 +9,16 @@ import (
 )
 
 func main() {
-	client, err := grpc.Dial("localhost:6000", grpc.WithInsecure())
+	client, err := grpc.Dial("127.0.0.1:6001",grpc.WithInsecure())
 	if err != nil {
 		log.Fatal(err.Error())
 	}
 
 	defer client.Close()
 
-	c := proto.NewHelloClient(client)
-	r, err := c.SayHello(context.Background(), &proto.HelloRequest{
-		Name: "world",
+	c := proto.NewProtoServer1Client(client)
+	r, err := c.Hi(context.Background(), &proto.HiRequest{
+		Name: "i am client",
 	})
 
 	if err != nil {
