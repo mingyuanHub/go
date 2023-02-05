@@ -28,6 +28,7 @@ require (
 	github.com/NYTimes/gziphandler v1.0.1 // indirect
 	github.com/RedisBloom/redisbloom-go v1.0.0 // indirect
 	github.com/StackExchange/wmi v1.2.1 // indirect
+	github.com/akavel/rsrc v0.10.2 // indirect
 	github.com/antchfx/htmlquery v1.2.4 // indirect
 	github.com/antchfx/xmlquery v1.3.10 // indirect
 	github.com/armon/circbuf v0.0.0-20150827004946-bbbad097214e // indirect
@@ -64,6 +65,7 @@ require (
 	github.com/go-playground/universal-translator v0.18.0 // indirect
 	github.com/go-playground/validator/v10 v10.10.0 // indirect
 	github.com/go-redis/redis/v8 v8.11.4 // indirect
+	github.com/go-vgo/robotgo v0.100.10 // indirect
 	github.com/gobwas/glob v0.2.3 // indirect
 	github.com/goccy/go-json v0.9.7 // indirect
 	github.com/gocolly/colly v1.2.0 // indirect
@@ -125,6 +127,8 @@ require (
 	github.com/lestrrat-go/strftime v1.0.5 // indirect
 	github.com/linode/linodego v0.7.1 // indirect
 	github.com/lufia/plan9stats v0.0.0-20211012122336-39d0f177ccd0 // indirect
+	github.com/lxn/walk v0.0.0-20210112085537-c389da54e794 // indirect
+	github.com/lxn/win v0.0.0-20210218163916-a377121e959e // indirect
 	github.com/mattn/go-colorable v0.1.6 // indirect
 	github.com/mattn/go-isatty v0.0.14 // indirect
 	github.com/matttproud/golang_protobuf_extensions v1.0.1 // indirect
@@ -194,6 +198,7 @@ require (
 	google.golang.org/api v0.28.0 // indirect
 	google.golang.org/appengine v1.6.6 // indirect
 	google.golang.org/genproto v0.0.0-20200623002339-fbb79eadd5eb // indirect
+	gopkg.in/Knetic/govaluate.v3 v3.0.0 // indirect
 	gopkg.in/inf.v0 v0.9.1 // indirect
 	gopkg.in/ini.v1 v1.66.4 // indirect
 	gopkg.in/resty.v1 v1.12.0 // indirect
