@@ -11,15 +11,21 @@ func main() {
 
 	u, e := url.Parse(fileUrl)
 	if e != nil {
-		fmt.Println(e.Error())
+		fmt.Println(1, e.Error())
 	}
 
-	fmt.Println(u.Path)
-	fmt.Println(path.Ext(u.Path))
 
 
-	fmt.Println(path.Ext(fileUrl))
-	fmt.Println(path.Base(fileUrl))
-	fmt.Println(path.Dir(fileUrl))
+	fmt.Println(1.1, u.RawQuery)
+	fmt.Println(1.2, u.Scheme + u.Host)
+	fmt.Println(1.3, u.Path)
+
+	fmt.Println(2, u.Path)
+	fmt.Println(3, path.Ext(u.Path))
+
+
+	fmt.Println(4, path.Ext(fileUrl))
+	fmt.Println(5, path.Base(fileUrl))
+	fmt.Println(6, path.Dir(fileUrl))
 	fmt.Println(path.Split(fileUrl))
 }
