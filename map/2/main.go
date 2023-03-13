@@ -18,7 +18,5 @@ func main() {
 		a[4] = "123123"
 	}
 
-
-
 	fmt.Println(a[4].(string))
 }
