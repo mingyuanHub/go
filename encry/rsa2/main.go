@@ -10,8 +10,9 @@ import (
 )
 
 func main()  {
-	buf :=
-`-----BEGIN PUBLIC KEY-----
+
+	const pubPEM = `
+-----BEGIN PUBLIC KEY-----
 MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxppL+DjD4EvCp6XY805Q
 SBhqN9bX8w12s9ctdkHEQKj4ufSwG1ffa6J79ip0w6sHNBTD2ZxaJFOTFGHugmJB
 F0NTPEHixgDtWfUZxnpGhlU7u4sZPCzAOSjf1SeLmxRN6PhdFeAOsC8UbdZPe5vg
@@ -20,8 +21,9 @@ L/FJbE04Js0pdl90n4tkpHgfoo/uPAAoWmqBf2lz/TvEyKgZrGEn+6sxfzShIc/c
 /pIKHfcP7rX7CzIq+p33E8zj+0U69wvswZY479guFN3VOz6l5iN+Wcu7IinuDQrV
 cQIDAQAB
 -----END PUBLIC KEY-----`
+
 	//pem解码
-	block, _ := pem.Decode([]byte(buf))
+	block, _ := pem.Decode([]byte(pubPEM))
 	//x509解码
 	publicKeyInterface, err := x509.ParsePKIXPublicKey(block.Bytes)
 	if err!=nil{
