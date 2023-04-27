@@ -18,9 +18,9 @@ func main() {
 	fmt.Println(sidebar)
 
 	reLink := regexp.MustCompile(`href="(.*?)"`)
+
 	// 找到所有链接
 	links := reLink.FindAllString(sidebar[0], -1)
 
 	fmt.Println(links)
-
 }
