@@ -1,3 +1,4 @@
 packages/mysql/gorm/db.go
 .idea/
 *.exe
+geoip/assets
